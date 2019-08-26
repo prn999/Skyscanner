@@ -9,6 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomeFlightsPage extends TestBase {
 
+  //WebElements Repository
   @FindBy(xpath = "//input[@id='fsc-origin-search']")
   @CacheLookup
   WebElement from;
